@@ -1,6 +1,10 @@
 <H1>Introduction / Business Problem</H1>
-In Mexico the census of the whole population is taken every 10 years (as in the US), and according to the gathered information some classifications are created based on the numbers obtained, one of those classifications is the ambit of an area, those could be rural or urban (depending on the population of each area).
+In Mexico the census of the whole population is taken every 10 years (as in the US), and according to the gathered information some classifications
+are created based on the numbers obtained, one of those classifications is the ambit of an area, those could be rural or urban (depending on the
+population of each area).
 
-Given that the census is taken every 10 years, the conditions of the population change and some areas classified as rural could be on the verge of becoming an urban areas.
+Given that the census is taken every 10 years, the conditions of the population change and some areas classified as rural could be on the verge
+of becoming an urban areas.
 
-As an area transits from rural to urban the services needed differ and knowing which areas are on this process of urbanization is helpful to service providers and government institutes.
+As an area transits from rural to urban the services needed differ and knowing which areas are on this process of urbanization is helpful to
+service providers and government institutes.
