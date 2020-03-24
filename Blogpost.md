@@ -279,7 +279,7 @@ In the project we will review two methods to predict which neighborhoods are in 
 ## Analysis <a name='analysis'></a>
 As initial exploration of the data adquired, let's see a bar chart of the percentage of venues per category from both ambits
 
-![png](output_15_0.png)
+![png](Exploratory_bar chart.png)
 
 As we can appreciate on the bar chart there is not big difference on the percentages of venues per category among both ambits.
 This could lead to a low accuracy on the prediction model.
@@ -305,7 +305,7 @@ Now I proceed to use K-Means algorith to find insight from the rural neighboorho
 
 First we need to find the best value of K, through iteration of this model we obtained the following graphic showing the best value of K
 
-![png](output_20_0.png)
+![png](Elbow evaluation.png)
 
 Using the elbow method we can see that the best K for the algorith is 6
 
@@ -320,7 +320,7 @@ We see a summary per cluster in order to interpret the results of k-Means
 |0|green|Neighborhood to be urbanized|
 |2|lime|Neighborhood poorly urbanized|
 
-![png](map_image.png)
+![png](Clusters mapped.png)
 
 ## Results <a name='results'></a>
 
