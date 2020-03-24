@@ -33,20 +33,6 @@ Also to avoid multitude of categories used on Foursquare a process is considered
 
 Data of the location obtained
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -105,20 +91,6 @@ Data of the location obtained
 
 Example of the venues adquired
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -207,20 +179,6 @@ Example of the venues adquired
 
 Example of the venues category set to the main category from the hierarchy
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -307,7 +265,6 @@ Example of the venues category set to the main category from the hierarchy
 </table>
 </div>
 
-
 ## Methodology <a name='methodology'></a>
 In the project we will review two methods to predict which neighborhoods are in the process of urbanization:
 1. Logistic regresion (supervised method)
@@ -347,6 +304,7 @@ Therefore this method is not the best given the information of the Tolca municip
 Now I proceed to use K-Means algorith to find insight from the rural neighboorhoods
 
 First we need to find the best value of K, through iteration of this model we obtained the following graphic showing the best value of K
+
 ![png](output_20_0.png)
 
 Using the elbow method we can see that the best K for the algorith is 6
